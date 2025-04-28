@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="accion.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    
+    <header class="header">
+      <a href="index.html">
+        <img src="Imagenes_MagicJohns/MJ_Logo.avif" alt="logo" class="logo"
+      /></a>
+
+      <nav class="nav">
+        <a href="Delivery_Pick-Up.html">Delivery / Pick-up</a>
+        <a href="magic_market.html">Magic Market</a>
+        <a href="aboutUs.html">About us</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="#">Press</a>
+        <a href="#">Jobs</a>
+      </nav>
+      <a href="order_online.html"
+        ><img
+          src="Imagenes_MagicJohns/cart.png"
+          alt=" carrito"
+          class="logo_mini"
+      /></a>
+      
+      <a href="https://www.facebook.com/magicjohns/" target="_blank" rel="noopener noreferrer">
+        <img src="Imagenes_MagicJohns/facebook_logo.avif" alt="Página de Facebook de Magic Johns" class="logo_mini">
+      </a>
+
+      <a href="https://www.instagram.com/mmmagicjohns/" target="_blank" rel="noopener noreferrer">
+      <img
+        src="Imagenes_MagicJohns/instagram_logo.avif"
+        alt="instagram"
+        class="logo_mini"
+      />      </a>
+      
+    </header>
+
+
+    <main class="contenido-principal">
+      <aside class="sideizq"></aside>
+
+      <div class="contenido">
+
+
+        <section class="menu_pedir">
+            
+          <div class="menu_pedir_letra">
+            <h2>Menu</h2>
+            <h3>New York Style Pizza</h3>
+            <p>Ø45cm Pies / 8 Slices</p>
+          </div>
+
+          <div class="menu_pedir-grid">
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Plain</h4>
+                <p>tomato sauce and mozzarella</p>
+                <span class="label">VG</span>
+                <p class="price">€24.00</p>
+
+                <button onclick="addToCart('NY Plain', 24)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NYpizza.webp"
+                alt="NY Plain Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Butternut</h4>
+                <p>
+                  sesame sauce, caramelised onion, zaatar, parsley, butternut
+                  squash
+                </p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Butternut', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NYButternut.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Truffle</h4>
+                <p>
+                  white sauce, mozzarella, shimeji mushrooms, MJ's truffle,
+                  parmesan
+                </p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Truffle', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Truffle.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Okinawa Taco</h4>
+                <p>
+                  white sauce, Okinawa taco meat, mozzarella, ricotta, chives
+                </p>
+                <p class="price">€32.00</p>
+                <button onclick="addToCart('NY Okinawa Taco', 32)">
+                  Añadir
+                </button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Okinawa Taco.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Olive</h4>
+                <p>tomato sauce, mozzarella, green and black olives</p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Olive', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Olive.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Ricotta</h4>
+                <p>tomato sauce, mozzarella, black olives, garlic, ricotta</p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Ricotta', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Ricotta.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Ricotta</h4>
+                <p>tomato sauce, mozzarella, black olives, garlic, ricotta</p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Ricotta', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Ricotta.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+
+            <div class="menu_pedir-item">
+              <div class="menu_pedir-info">
+                <h4>NY Ricotta</h4>
+                <p>tomato sauce, mozzarella, black olives, garlic, ricotta</p>
+                <span class="label">V</span>
+                <p class="price">€28.00</p>
+                <button onclick="addToCart('NY Ricotta', 28)">Añadir</button>
+              </div>
+              <img
+                src="Imagenes_MagicJohns/NY Ricotta.webp"
+                alt="NY Butternut Pizza"
+              />
+            </div>
+            
+        </div>
+
+
+
+
+        <div class="menu_pedir_letra">
+            <h3>Detroit Deep Dish</h3>
+            <p>25x25cm, 4 slices, for 2 people.</p>
+          </div>
+
+
+
+          <div class="menu_pedir-grid">
+              <div class="menu_pedir-item">
+                <div class="menu_pedir-info">
+                  <h4>Detroit Plain</h4>
+                  <p>tomato sauce, mozzarella, caramelised cheddar crust</p>
+                  <span class="label">VG</span>
+                  <p class="price">€18.00</p>
+                  <button onclick="addToCart('Detroit Plain', 18)">Añadir</button>
+                </div>
+                <img src="Imagenes_MagicJohns/Detroit Plain.webp" alt="Detroit Plain">
+              </div>
+          
+              <div class="menu_pedir-item">
+                <div class="menu_pedir-info">
+                  <h4>Detroit Okinawa Taco</h4>
+                  <p>white sauce, tomato sauce, Okinawa taco meat, mozzarella, ricotta, chives, caramelised cheese crust.</p>
+                  <p class="price">€22.00</p>
+                  <button onclick="addToCart('Detroit Okinawa Taco', 22)">Añadir</button>
+                </div>
+                <img src="Imagenes_MagicJohns/Detroit Okinawa Taco.webp" alt="Detroit Okinawa Taco">
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="menu_pedir_letra">
+                <h3>Gluten Free</h3>
+                <p>May contain traces of gluten.</p>
+              </div>
+    
+    
+              <div class="menu_pedir-grid">
+                <div class="menu_pedir-item">
+                  <div class="menu_pedir-info">
+                    <h4>Gluten Free Plain</h4>
+                    <p>gluten free dough, tomato sauce, mozzarella and a caramelised cheddar crust. May contain traces of gluten.</p>
+                    <span class="label">VG</span>
+                    <p class="price">€18.00</p>
+                    <button onclick="addToCart('Gluten Free Plain', 23)">Añadir</button>
+                  </div>
+                  <img src="Imagenes_MagicJohns/Gluten Free Plain.webp" alt="Gluten Free Plain">
+                </div>
+            
+                <div class="menu_pedir-item">
+                  <div class="menu_pedir-info">
+                    <h4>Gluten Free Pepperoni</h4>
+                    <p>gluten free dough, tomato sauce, mozzarella, MJ’s homemade and a caramelised cheddar crust. 25x25cm, 4 slices, for 2 people. May contain traces of gluten.</p>
+                    <span class="label">V</span>
+                    <p class="price">€27.00</p>
+                    <button onclick="addToCart('Gluten Free Pepperoni', 27)">Añadir</button>
+                  </div>
+                  <img src="Imagenes_MagicJohns/Gluten Free Pepperoni.webp" alt="Detroit Okinawa Taco">
+                </div>
+
+
+
+
+
+                    <div class="menu_pedir-item">
+                      <div class="menu_pedir-info">
+                        <h4>Gluten Free Olive</h4>
+                        <p>gluten free dough, tomato sauce, mozzarella and a caramelised cheddar crust. May contain traces of gluten.</p>
+                        <span class="label">VG</span>
+                        <p class="price">€18.00</p>
+                        <button onclick="addToCart('Gluten Free Olive', 23)">Añadir</button>
+                      </div>
+                      <img src="Imagenes_MagicJohns/Gluten Free Olive.webp" alt="Gluten Free Olive">
+                    </div>
+                    
+                    <div class="menu_pedir-item">
+                        <div class="menu_pedir-info">
+                          <h4>Gluten Free Olive</h4>
+                          <p>gluten free pizza dough, tomato sauce, mozzarella, fresh salsiccia, caramelised red onion, caramelised cheese crust (4)(10) May contain traces of gluten.</p>
+                          <span class="label">VG</span>
+                          <p class="price">€18.00</p>
+                          <button onclick="addToCart('Gluten Free Sausage & Onion', 23)">Añadir</button>
+                        </div>
+                        <img src="Imagenes_MagicJohns/Gluten Free Sausage & Onion.webp" alt="Gluten Free Olive">
+                      </div>
+  
+
+              </div>
+  
+  
+  
+  
+  
+    <img src="Imagenes_MagicJohns/DIY-logo-FINAl.avif" alt="">
+              <div class="menu_pedir_letra">
+                <h3>DIY Pizza</h3>
+                <p>Use our amazing fresh Dough (which we cold ferment for a minimum of 24 hours) to make your own pizza at home. Pick our pizza kit sets to make our pizza recipes or let your freak flag fly and come up with your own magic (pics or it didn’t happen!)</p>
+              </div>
+    
+    
+    
+    
+    
+    
+              <div class="menu_pedir-grid">
+                <div class="menu_pedir-item">
+                  <div class="menu_pedir-info">
+                    <h4>Plain DIY Kit</h4>
+                    <p>fresh dough, tomato sauce and mozzarella</p>
+                    <span class="label">VG</span>
+                    <p class="price">€12.00</p>
+                    <button onclick="addToCart('Plain DIY Kit', 12)">Añadir</button>
+                  </div>
+                  <img src="Imagenes_MagicJohns/Plain DIY Kit.webp" alt="Plain DIY Kit">
+                </div>
+            
+                <div class="menu_pedir-item">
+                  <div class="menu_pedir-info">
+                    <h4>Olive DIY Kit</h4>
+                    <p>fresh dough, tomato sauce, mozzarella, green and black olives</p>
+                    <span class="label">V</span>
+                    <p class="price">€15.00</p>
+                    <button onclick="addToCart('Olive DIY Kit', 15)">Añadir</button>
+                  </div>
+                  <img src="Imagenes_MagicJohns/Olive DIY Kit.webp" alt="Olive DIY Kit">
+                </div>
+
+
+
+
+
+                    <div class="menu_pedir-item">
+                      <div class="menu_pedir-info">
+                        <h4>White Sauce / Béchamel (DIY)</h4>
+                        <p class="price">€3.00</p>
+                        <button onclick="addToCart('White Sauce / Béchamel (DIY)', 3)">Añadir</button>
+                      </div>
+                      <img src="Imagenes_MagicJohns/White Sauce Bechamel (DIY).webp" alt="White Sauce / Béchamel">
+                    </div>
+                    
+                    <div class="menu_pedir-item">
+                        <div class="menu_pedir-info">
+                          <h4>Truffled Ricotta (DIY)</h4>
+                          <p class="price">€4.00</p>
+                          <button onclick="addToCart('Truffled Ricotta (DIY)', 4)">Añadir</button>
+                        </div>
+                        <img src="Imagenes_MagicJohns/truffled Ricotta (DIY).webp" alt="Truffled Ricotta (DIY)">
+                      </div>
+  
+
+              </div>
+  
+
+
+
+
+
+
+
+
+        </section>
+      </div>
+
+      <aside class="sideder">
+
+        <div class="cart">
+               <h4>Cart</h4>
+          <div id="cart-items"></div>
+          <p id="cart-total">Total: €0</p>
+        </div>
+        
+
+
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-section">
+        <h3>Magic John's</h3>
+        <p>Oranienburger Strasse 48<br />10117 Berlin</p>
+        <p>Monday - Friday<br />11:30 – 23:00</p>
+        <p>Saturday - Sunday<br />13:00 - 23:00</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+          <li><a href="#">AGB</a></li>
+          <li><a href="#">Widerrufsbelehrung</a></li>
+          <li><a href="#">Erklärung zur Barrierefreiheit</a></li>
+        </ul>
+        <a class="nutri" href="#">Nutritional Info</a>
+      </div>
+
+      <div class="footer-section">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Join Our Mailing List</h3>
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+        <input type="email" placeholder="Enter your email here*" />
+        <button>Subscribe Now</button>
+      </div>
+    </footer>
+  </body>
+</html>
